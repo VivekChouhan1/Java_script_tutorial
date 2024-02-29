@@ -42,3 +42,33 @@ console.log(booleanInLoggedIn)
 console.log(booleanInLoggedIn1)
 console.log(booleanInLoggedIn2)
 
+
+
+
+// **********************************OPERATION*************************
+
+
+
+// console.log("1" + 2)
+// console.log(1 + "2")
+// console.log("1" + 2 + 3)
+// console.log(1 + 2 + "3")
+
+// console.log(+true)
+// console.log(+"")
+
+let n1,n2,n3
+m1=n2=n3=4;
+
+
+//for more study go and read MDN increment operator
+let gamecounter=6;
+gamecounter++
+console.log(gamecounter)
+++gamecounter
+console.log(gamecounter)
+
+//link to study
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment
+
+// https://tc39.es/ecma262/#sec-abstract-operations
