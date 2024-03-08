@@ -14,7 +14,7 @@ for (const greet of greetings) {
     //console.log(`Each char is ${greet}`)
 }
 
-// Maps
+// Maps  they are known for there unique value and order
 
 const map = new Map()
 map.set('IN', "India")

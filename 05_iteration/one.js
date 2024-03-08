@@ -51,16 +51,16 @@ for (let index = 1; index <= 20; index++) {
 
 //pattern print:
 let s=[1,2,3,4,5];
-let k=1;
-for(let i=0;i<5;i++)
-{
-    for(let j=0;j<=i;j++)
-    {
-        string+=k;
-        k++;
-    }
-    // console.log(string)
-}
+// let k=1;
+// for(let i=0;i<5;i++)
+// {
+//     for(let j=0;j<=i;j++)
+//     {
+//         string+=k;
+//         k++;
+//     }
+//     // console.log(string)
+// }
 
 s.forEach(function(ele)
 {
