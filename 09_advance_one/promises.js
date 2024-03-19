@@ -1,18 +1,23 @@
 //by this we have the concept of .then and .catch
 
+//we can or cannot hold promise in variabe
+//parameter of promise contain parameter function(callback) which have two parameter resolve(if done) and reject(it reject promise)  
+
 const promiseOne = new Promise(function(resolve, reject){
     //Do an async task
     // DB calls, cryptography, network
     setTimeout(function(){
         console.log('Async task is compelete');
-        resolve()
+        resolve()   //to connect promise with .then
     }, 1000)
 })
-
+//above promise is created and now we consume it with .then
 promiseOne.then(function(){
     console.log("Promise consumed");
 })
 
+
+//or we can also write above program in these below programn type
 new Promise(function(resolve, reject){
     setTimeout(function(){
         console.log("Async task 2");
