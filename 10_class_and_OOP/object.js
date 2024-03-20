@@ -6,7 +6,7 @@ function multipleBy5(num){
 multipleBy5.power = 2
 
 console.log(multipleBy5(5));
-console.log(multipleBy5.power);
+console.log(multipleBy5.power);  //fn is behave like function as well as like object in javastript
 console.log(multipleBy5.prototype);
 
 function createUser(username, score){
@@ -14,7 +14,9 @@ function createUser(username, score){
     this.score = score
 }
 
-createUser.prototype.increment = function(){
+
+//to make our own methods
+createUser.prototype.increment =function (){
     this.score++
 }
 createUser.prototype.printMe = function(){
