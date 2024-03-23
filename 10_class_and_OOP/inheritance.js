@@ -8,9 +8,10 @@ class User {
     }
 }
 
-class Teacher extends User{
+class Teacher extends User    //extends used for inherit any class 
+{
     constructor(username, email, password){
-        super(username)
+        super(username)             //super is used to refer inherit class variables
         this.email = email
         this.password = password
     }
@@ -27,4 +28,4 @@ const masalaChai = new User("masalaChai")
 
 masalaChai.logMe()
 
-console.log(chai instanceof User);
+console.log(chai instanceof User);    //to check wheather it is instance of that class or not 
