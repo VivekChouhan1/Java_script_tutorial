@@ -15,3 +15,4 @@ function name(username ="vivek"){              //to pass defalut value
      console.log(username); 
 }
 name()
+// high
